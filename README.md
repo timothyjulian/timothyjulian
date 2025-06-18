@@ -3,30 +3,11 @@
 // src/main.rs
 
 fn main() {
-    let timothy = SoftwareEngineer::new("Timothy Julian", "Software Development Engineer", vec!["id_ID", "en_US"]);
-
-    timothy.say_hi();
-}
-
-struct SoftwareEngineer {
-    name: &'static str,
-    role: &'static str,
-    languages: Vec<&'static str>,
-}
-
-impl SoftwareEngineer {
-    fn new(name: &'static str, role: &'static str, languages: Vec<&'static str>) -> Self {
-        SoftwareEngineer { name, role, languages }
-    }
-
-    fn say_hi(&self) {
-        println!(
-            "👋 Hi, I'm {} — a passionate {}.\nI speak: {}",
-            self.name,
-            self.role,
-            self.languages.join(", ")
-        );
-    }
+    let me = SoftwareDevelopmentEngineer {
+        name: "Timothy Julian",
+        role: "Software Development Engineer",
+        languages: vec!["en_US", "id_ID"]
+    };
 }
 ```
 
