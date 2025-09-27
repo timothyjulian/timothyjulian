@@ -12,7 +12,7 @@ fn main() {
 ```
 
 ## 📝 Blogs
-- Personal blog & portfolio: [https://timothyjulian.github.io](https://timothyjulian.github.io/)
+- Personal blog: [https://timothyjulian.github.io](https://timothyjulian.github.io/)
 
 ## 📊 My Most Used Languages
 
